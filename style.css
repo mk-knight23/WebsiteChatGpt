@@ -1,0 +1,265 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+}
+
+.about {
+    text-align: center;
+}
+
+.signup,
+.login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: #888;
+}
+
+p.success {
+    color: #4caf50;
+}
+
+p.error {
+    color: #f44336;
+}
+
+/* Existing CSS styles above this point */
+
+/* Home page specific styles */
+
+.features {
+    margin-top: 30px;
+}
+
+.features h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.features ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.latest-news {
+    margin-top: 30px;
+}
+
+.latest-news h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-item {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.news-item h3 {
+    margin: 0;
+}
+
+.news-item .date {
+    color: #888;
+}
+
+/* About page specific styles */
+
+.about h1 {
+    color: #333;
+}
+
+.about h2 {
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    line-height: 1.6;
+}
+
+/* Existing CSS styles above this point */
+
+/* Contact page specific styles */
+
+.contact h1 {
+    color: #333;
+}
+
+.contact p {
+    line-height: 1.6;
+}
+
+.contact form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact form textarea {
+    resize: vertical;
+}
+
+.contact form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact p.success,
+.contact p.error {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contact p.success {
+    background-color: #4caf50;
+}
+
+.contact p.error {
+    background-color: #f44336;
+}
+
+/* Apply the font that supports both English and Hindi characters to the specific element (e.g., the jokeDisplay paragraph) */
+#jokeDisplay {
+    font-family: 'YourFont', Arial, sans-serif;
+  }
+  
+
+  /* Increase the font size for the entire website */
+body {
+    font-size: 18px;
+  }
+  
+  /* Increase the font size for headings */
+  h1, h2, h3 {
+    font-size: 28px;
+  }
+  
+  /* Increase the font size for paragraphs */
+  p {
+    font-size: 20px;
+  }
+  
+  /* Increase the size of the navigation menu items */
+  nav ul li a {
+    font-size: 22px;
+  }
+  
+  /* Increase the size of the buttons */
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  
+  /* Increase the size of the header */
+  header {
+    padding: 20px;
+  }
+  
+  /* Increase the size of the main content area */
+  main {
+    padding: 30px;
+  }
+  
+  /* Increase the size of the footer */
+  footer {
+    padding: 20px;
+  }
+  
+  /* Optionally, increase the width of the entire website */
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
