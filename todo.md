@@ -1,0 +1,9 @@
+- [x] Analyze existing website structure
+- [ ] Create AI Chat page with model selection dropdown
+- [ ] Implement Cerebras Cloud API integration
+- [ ] Add chat interface with real-time messaging
+- [ ] Handle rate limits and error cases
+- [ ] Update navigation to include chat page
+- [ ] Test functionality locally
+- [ ] Push changes to GitHub repository
+- [ ] Deploy to Vercel
